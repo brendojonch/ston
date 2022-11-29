@@ -1,0 +1,53 @@
+@media only screen and (max-width: 1240px) {
+
+    .main-content-brand img {
+        display: none;
+    }
+
+    .main-content-text h1 {
+        font-size: 2.2em;
+    }
+
+
+    .main-content-container {
+        height: 94vh;
+        width: 85%;
+        text-align: center;
+    }
+
+    .main-content-text h1{
+        width: 100%;
+    }
+
+    .main-content-text p{
+        width: 100%;
+    }
+
+    .main-content-text button{
+        padding: 10px 35px;
+    }
+
+    .hide-mobile{
+        display: none;
+    }
+
+    nav ul{
+        text-align: center;
+    }
+
+    footer div{
+        text-align: center;
+    }
+
+}
+@media only screen and (max-width: 1164px) {
+    .slideshow-container {
+        display: none;
+    }
+}
+
+
+@media only screen and (max-width: 1280px) {
+    
+
+}

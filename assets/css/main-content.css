@@ -1,0 +1,137 @@
+@import url(carrosel.css);
+.main-content-container {
+
+    height: 95vh;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-content-text {
+    padding: -4px 50px;
+}
+
+.main-content-text h1 {
+    font-size: 2.2em;
+    width: 75%;
+}
+
+.main-content-text p {
+    font-size: 1.3em;
+    padding: 10px 0px;
+    font-weight: 500;
+    width: 80%;
+}
+
+.main-content-text button {
+    padding: 20px 90px;
+    border: none;
+    background-color: #008000;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.2em;
+    margin: 10px 0px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.main-content-text button:hover {
+    transform: scale(1.1);
+    box-shadow: 10px 8px 5px #5c5c5cf6;
+    background-color: #008000;
+}
+
+
+.main-content-brand {
+   
+    border-radius: 10px;
+}
+
+.flex-wrap {
+    flex-wrap: nowrap;
+}
+
+.main-content-brand-no-shadow {
+    border-radius: 10px;
+}
+
+
+
+.main-content-brand img {
+    width: 540px;
+    cursor: pointer;
+    transition: 0.3s;
+    box-shadow: 4px 6px 10px #33333359;
+}
+
+
+.main-content-brand img:hover{
+    transform: scale(1.1);
+}
+
+.form-modal img{
+    width: 100vh;
+}
+
+.main-content-text-thanks h1 {
+    font-size: 3.4em;
+    width: 100%;
+}
+
+.main-content-text-thanks p {
+    font-size: 1.3em;
+    padding: 10px 0px;
+    font-weight: 500;
+    width: 100%;
+}
+
+.main-content-container-thanks {
+
+    height: 95vh;
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.main-content-text-thanks button {
+    padding: 20px 15px;
+    border: none;
+    background-color: #000;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.2em;
+    margin: 25px 0px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.main-content-text-thanks button:hover {
+    transform: scale(1.1);
+    box-shadow: 10px 8px 5px #5c5c5cf6;
+    background-color: #222222;
+}
+
+.main-content-text-thanks img {
+    width: 80px;
+    margin-bottom: 30px;
+}
+
+#city {
+    color: dodgerblue;
+}
+
+#city-no-api, #city {
+    color: #008000;
+    text-decoration: underline;
+}
+figure#main-fig img {
+    width: 21vw;
+    height: 53vh;
+    margin: 0 20px;
+}
+

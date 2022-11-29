@@ -1,0 +1,138 @@
+.mauticform_wrapper {
+
+    padding: 20px 15px !important;
+    border-radius: 10px !important;
+    box-shadow: 1px 2px 5px #121212;
+    background-color: #fff;
+
+}
+
+.mauticform-selectbox,
+.mauticform-input,
+.mauticform-textarea {
+    font-size: 1.2em !important;
+    padding: 15px 10px !important;
+    border-radius: 5px !important;
+}
+
+
+.mauticform-button-wrapper .mauticform-button.btn-default {
+    padding: 20px 15px !important;
+    border: none !important;
+    background-color: dodgerblue !important;
+    color: #fff !important;
+    font-weight: bold !important;
+    font-size: 1.2em !important;
+    margin: 10px 30px !important;
+    border-radius: 5px !important;
+    cursor: pointer !important;
+    transition: 0.5s !important;
+    width: 90% !important;
+}
+
+.mauticform-button-wrapper .mauticform-button.btn-default:hover {
+    transform: scale(1.1) !important;
+    box-shadow: 10px 8px 5px #5c5c5cf6 !important;
+    background-color: #222222 !important;
+}
+
+.form-modal {
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    background: #12121278;
+    padding: 11px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    overflow-y: auto;
+}
+
+.form-modal-content {
+    width: 80%;
+}
+
+.form-modal-content h2 {
+    text-align: center;
+    color: #fff;
+    font-size: 2em;
+}
+
+.main-content-brand-no-shadow .mauticform-button-wrapper .mauticform-button.btn-default {
+    margin: 10px 30px !important;
+}
+
+.main-content-brand-no-shadow .mauticform_wrapper {
+    width: 500px !important;
+}
+
+#close-form {
+    position: absolute;
+    left: 28ch;
+    top: 10%;
+}
+
+@media only screen and (max-width: 700px) {
+
+    .form-modal {
+        height: 100vh;
+        padding: 0;
+    }
+
+
+    .form-modal-content {
+        width: 90%;
+        margin: 0;
+    }
+
+    .form-modal h2 {
+        display: none;
+    }
+
+    .mauticform-button-wrapper .mauticform-button.btn-default {
+        margin: 0 !important;
+        white-space: pre-wrap !important;
+        width: 100% !important;
+    }
+
+    .mauticform-selectbox,
+    .mauticform-input,
+    .mauticform-textarea {
+        resize: none !important;
+        height: 20px !important
+    }
+
+    .mauticform_wrapper {
+        padding: 5px 15px !important;
+    }
+
+
+    .main-content-brand-no-shadow .mauticform_wrapper {
+        width: 250px !important;
+    }
+
+    .mauticform-selectbox,
+    .mauticform-input,
+    .mauticform-textarea {
+        padding: 20px 15px !important;
+    }
+
+    .main-content-brand-no-shadow .mauticform-button-wrapper .mauticform-button.btn-default {
+        margin: 0px !important;
+        width: 90% !important;
+    }
+
+
+    .flex-wrap {
+        flex-wrap: wrap;
+    }
+
+
+    .mobile-vh {
+        height: 180vh !important;
+    }
+
+
+}
